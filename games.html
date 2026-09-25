@@ -1,0 +1,250 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Games - GameVerse</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f4f4f4;
+            color: #222;
+        }
+
+        header {
+            background: #111;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        nav {
+            background: #222;
+            padding: 15px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #00bfff;
+        }
+
+        .container {
+            max-width: 1100px;
+            margin: 30px auto;
+            padding: 20px;
+        }
+
+        .intro {
+            background: white;
+            padding: 30px;
+            text-align: center;
+            border-radius: 12px;
+            margin-bottom: 25px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        }
+
+        .intro h2 {
+            color: #00a8e8;
+        }
+
+        .games {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 20px;
+        }
+
+        .game-card {
+            background: white;
+            padding: 25px;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+            transition: transform 0.2s;
+        }
+
+        .game-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .game-card h3 {
+            color: #00a8e8;
+        }
+
+        .rating {
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        .favourite {
+            background: white;
+            padding: 30px;
+            margin-top: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        }
+
+        .button {
+            display: inline-block;
+            background: #00a8e8;
+            color: white;
+            padding: 12px 20px;
+            margin-top: 15px;
+            text-decoration: none;
+            border-radius: 6px;
+            font-weight: bold;
+        }
+
+        .button:hover {
+            background: #0077a3;
+        }
+
+        footer {
+            background: #111;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>🎮 GameVerse</h1>
+        <p>Gaming • Technology • Reviews • Trends</p>
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="games.html">Games</a>
+        <a href="blog.html">Blog</a>
+        <a href="dashboard.html">Dashboard</a>
+        <a href="about.html">About Me</a>
+    </nav>
+
+    <div class="container">
+
+        <section class="intro">
+            <h2>🎮 GAME LIBRARY</h2>
+
+            <h2>EXPLORE THE GAMES</h2>
+
+            <p>
+                Discover popular games, genres, ratings and gaming experiences.
+            </p>
+        </section>
+
+        <h2>🔥 Popular Games</h2>
+
+        <div class="games">
+
+            <div class="game-card">
+                <h3>🎯 Grand Theft Auto V</h3>
+                <p>
+                    Explore Los Santos in a huge open-world action adventure.
+                </p>
+                <p><strong>Genre:</strong> Action / Open World</p>
+                <p><strong>Platform:</strong> PC / PlayStation / Xbox</p>
+                <p class="rating">⭐ 9.5 / 10</p>
+            </div>
+
+            <div class="game-card">
+                <h3>⛏️ Minecraft</h3>
+                <p>
+                    Build, explore and survive in a world created from blocks.
+                </p>
+                <p><strong>Genre:</strong> Sandbox / Survival</p>
+                <p><strong>Platform:</strong> PC / Mobile / Console</p>
+                <p class="rating">⭐ 9.0 / 10</p>
+            </div>
+
+            <div class="game-card">
+                <h3>🎯 Valorant</h3>
+                <p>
+                    A competitive tactical shooter featuring unique agents.
+                </p>
+                <p><strong>Genre:</strong> FPS / Tactical</p>
+                <p><strong>Platform:</strong> PC</p>
+                <p class="rating">⭐ 8.8 / 10</p>
+            </div>
+
+            <div class="game-card">
+                <h3>🤠 Red Dead Redemption 2</h3>
+                <p>
+                    Experience an immersive western adventure in a detailed
+                    open world.
+                </p>
+                <p><strong>Genre:</strong> Action / Adventure</p>
+                <p><strong>Platform:</strong> PC / PlayStation / Xbox</p>
+                <p class="rating">⭐ 9.7 / 10</p>
+            </div>
+
+            <div class="game-card">
+                <h3>🧱 Roblox</h3>
+                <p>
+                    Discover millions of experiences created by a huge gaming
+                    community.
+                </p>
+                <p><strong>Genre:</strong> Platform / Adventure</p>
+                <p><strong>Platform:</strong> PC / Mobile / Console</p>
+                <p class="rating">⭐ 9.2 / 10</p>
+            </div>
+
+            <div class="game-card">
+                <h3>🌆 Cyberpunk 2077</h3>
+                <p>
+                    Explore Night City in a futuristic open-world RPG.
+                </p>
+                <p><strong>Genre:</strong> RPG / Open World</p>
+                <p><strong>Platform:</strong> PC / PlayStation / Xbox</p>
+                <p class="rating">⭐ 9.1 / 10</p>
+            </div>
+
+        </div>
+
+        <section class="favourite">
+
+            <h2>❤️ Saicharan's Favourite</h2>
+
+            <h3>🧱 Roblox</h3>
+
+            <p>
+                Roblox is Saicharan's favourite game. It offers a large
+                collection of user-created experiences where players can
+                explore, create and interact with others.
+            </p>
+
+            <a class="button" href="about.html">
+                View My Profile →
+            </a>
+
+        </section>
+
+    </div>
+
+    <footer>
+        <p>© 2026 GameVerse | Created by Saicharan</p>
+    </footer>
+
+</body>
+</html>
+

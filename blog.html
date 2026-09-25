@@ -1,0 +1,291 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Blog - GameVerse</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f4f4f4;
+            color: #222;
+        }
+
+        header {
+            background: #111;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        nav {
+            background: #222;
+            padding: 15px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #00bfff;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 30px auto;
+            padding: 20px;
+        }
+
+        .intro {
+            background: white;
+            padding: 30px;
+            text-align: center;
+            border-radius: 12px;
+            margin-bottom: 25px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        }
+
+        .intro h2 {
+            color: #00a8e8;
+        }
+
+        .featured {
+            background: white;
+            padding: 30px;
+            border-radius: 12px;
+            margin-bottom: 30px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+            border-left: 5px solid #00a8e8;
+        }
+
+        .featured-label {
+            display: inline-block;
+            background: #00a8e8;
+            color: white;
+            padding: 6px 12px;
+            border-radius: 5px;
+            font-size: 13px;
+            font-weight: bold;
+        }
+
+        .featured h2 {
+            margin-top: 15px;
+            color: #222;
+        }
+
+        .article-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 20px;
+        }
+
+        .article {
+            background: white;
+            padding: 25px;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+            transition: transform 0.2s;
+        }
+
+        .article:hover {
+            transform: translateY(-5px);
+        }
+
+        .category {
+            color: #00a8e8;
+            font-size: 13px;
+            font-weight: bold;
+        }
+
+        .article h3 {
+            color: #222;
+        }
+
+        .meta {
+            color: #666;
+            font-size: 14px;
+        }
+
+        footer {
+            background: #111;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>🎮 GameVerse</h1>
+        <p>Gaming • Technology • Reviews • Trends</p>
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="games.html">Games</a>
+        <a href="blog.html">Blog</a>
+        <a href="dashboard.html">Dashboard</a>
+        <a href="about.html">About Me</a>
+    </nav>
+
+    <div class="container">
+
+        <section class="intro">
+            <h2>📰 GAMEVERSE BLOG</h2>
+
+            <h1>GAMING INSIGHTS</h1>
+
+            <p>
+                Explore gaming news, trends, technology, esports and
+                everything happening in the world of gaming.
+            </p>
+        </section>
+
+
+        <!-- Featured Article -->
+
+        <section class="featured">
+
+            <span class="featured-label">FEATURED</span>
+
+            <h2>The Future of Gaming</h2>
+
+            <p>
+                Gaming is rapidly changing with artificial intelligence,
+                cloud gaming, virtual reality and advanced graphics.
+                Discover how new technologies are shaping the future of gaming.
+            </p>
+
+            <p class="meta">
+                🎮 Technology &nbsp; | &nbsp; ⏱ 5 min read
+            </p>
+
+        </section>
+
+
+        <!-- Latest Articles -->
+
+        <h2>📚 Latest Articles</h2>
+
+        <div class="article-grid">
+
+            <article class="article">
+                <div class="category">GAMING</div>
+
+                <h3>🎮 Evolution of Video Games</h3>
+
+                <p>
+                    Learn how video games evolved from simple arcade
+                    experiences into realistic and immersive digital worlds.
+                </p>
+
+                <p class="meta">⏱ 4 min read</p>
+            </article>
+
+
+            <article class="article">
+                <div class="category">ANALYSIS</div>
+
+                <h3>🏆 What Makes a Game Successful?</h3>
+
+                <p>
+                    Discover the important elements behind successful games,
+                    including gameplay, storytelling, graphics and player
+                    experience.
+                </p>
+
+                <p class="meta">⏱ 5 min read</p>
+            </article>
+
+
+            <article class="article">
+                <div class="category">AI & TECH</div>
+
+                <h3>🤖 AI in Gaming</h3>
+
+                <p>
+                    Artificial intelligence is changing NPC behaviour,
+                    game development, personalization and player experiences.
+                </p>
+
+                <p class="meta">⏱ 4 min read</p>
+            </article>
+
+
+            <article class="article">
+                <div class="category">OPEN WORLD</div>
+
+                <h3>🌍 Why Open-World Games Are Popular</h3>
+
+                <p>
+                    Explore why players enjoy freedom, exploration,
+                    side missions and large interactive environments
+                    in open-world games.
+                </p>
+
+                <p class="meta">⏱ 3 min read</p>
+            </article>
+
+
+            <article class="article">
+                <div class="category">ESPORTS</div>
+
+                <h3>🏅 Competitive Gaming</h3>
+
+                <p>
+                    Competitive gaming has developed into a major
+                    entertainment industry with tournaments, professional
+                    players and esports communities.
+                </p>
+
+                <p class="meta">⏱ 4 min read</p>
+            </article>
+
+
+            <article class="article">
+                <div class="category">GAMING</div>
+
+                <h3>🖥️ PC Gaming vs Console Gaming</h3>
+
+                <p>
+                    Compare the general differences between PC and console
+                    gaming, including controls, customization, performance
+                    and convenience.
+                </p>
+
+                <p class="meta">⏱ 5 min read</p>
+            </article>
+
+        </div>
+
+    </div>
+
+
+    <footer>
+        <p>🎮 GameVerse | Created by Saicharan</p>
+        <p>Gaming • Technology • Reviews • Trends</p>
+    </footer>
+
+</body>
+</html>
+
